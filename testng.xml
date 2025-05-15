@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AutomationExerciseSuite" parallel="false" >
+    <test name="UserFlowTests">
+        <classes>
+            <class name="tests.SignUp_Login_Tests"/>
+            <class name="tests.ContactUsTest"/>
+            <class name="tests.TestCasesTest"/>
+            <class name="tests.Product_ProductDetailTest"/>
+            <class name="tests.SubscriptionTest"/>
+        </classes>
+    </test>
+</suite>
